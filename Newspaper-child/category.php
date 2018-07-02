@@ -71,13 +71,6 @@ td_js_buffer::add_to_footer (
         </div>
 
 
-        <div class="newtekadv-mobile-top">
-          <?php if(function_exists('adv_top_mobile')) {
-            adv_top_mobile();
-          } ?>
-        </div>
-        
-
         <!-- content -->
         <div class="td-pb-row">
             <?php

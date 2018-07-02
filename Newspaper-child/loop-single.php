@@ -109,6 +109,10 @@ if (have_posts()) {
               adv_in_article();
             } ?>
             
+            <?php if (function_exists('adv_top_mobile_single')) {
+              adv_top_mobile_single();
+            } ?>
+            
             
              <?php if (function_exists('correlati_adsense')) {
               correlati_adsense();
